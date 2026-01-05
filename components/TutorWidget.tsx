@@ -90,7 +90,7 @@ export default function TutorWidget() {
             {/* Glow effect */}
             <div className="absolute inset-0 bg-[#0794d4] rounded-full blur-lg opacity-40 group-hover:opacity-60 transition-opacity"></div>
             {/* Logo */}
-            <div className="relative w-14 h-14 bg-gradient-to-br from-[#0794d4] to-[#0569a0] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform cursor-pointer border-2 border-white/20">
+            <div className="relative w-14 h-14 bg-linear-to-br from-[#0794d4] to-[#0569a0] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform cursor-pointer border-2 border-white/20">
               <span className="text-white font-bold text-xl">iP</span>
             </div>
             {/* Pulse indicator */}
@@ -108,7 +108,7 @@ export default function TutorWidget() {
       {isOpen && (
         <div className="fixed bottom-0 right-0 z-50 w-full sm:w-[400px] md:w-[450px] h-[600px] max-h-[80vh] bg-white rounded-t-2xl sm:rounded-tl-2xl shadow-2xl flex flex-col border border-gray-200 overflow-hidden animate-in slide-in-from-bottom-5 duration-300">
           {/* Header */}
-          <div className="bg-gradient-to-r from-[#0794d4] to-[#0569a0] px-4 py-3 flex items-center justify-between shrink-0">
+          <div className="bg-linear-to-r from-[#0794d4] to-[#0569a0] px-4 py-3 flex items-center justify-between shrink-0">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">iP</span>
@@ -136,7 +136,7 @@ export default function TutorWidget() {
           <div className="flex-1 overflow-y-auto p-4 space-y-4 bg-gray-50">
             {messages.length === 0 && (
               <div className="text-center py-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-[#0794d4] to-[#0569a0] rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-linear-to-br from-[#0794d4] to-[#0569a0] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white font-bold text-2xl">iP</span>
                 </div>
                 <h4 className="text-lg font-semibold text-gray-800 mb-2">

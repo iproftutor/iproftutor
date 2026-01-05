@@ -312,7 +312,7 @@ export default function UsersPage() {
                   <tr key={user.id} className="hover:bg-gray-50">
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-gradient-to-br from-[#0794d4] to-[#0569a0] rounded-full flex items-center justify-center">
+                        <div className="w-10 h-10 bg-linear-to-br from-[#0794d4] to-[#0569a0] rounded-full flex items-center justify-center">
                           <span className="text-white font-semibold text-sm">
                             {getInitials(
                               user.user_metadata?.full_name,

@@ -329,7 +329,7 @@ export default function CountryFlashcardsPage() {
                       setFormData({ ...formData, answer: e.target.value })
                     }
                     placeholder="Enter the answer..."
-                    className="mt-1 w-full px-3 py-2 border rounded-lg min-h-[80px]"
+                    className="mt-1 w-full px-3 py-2 border rounded-lg min-h-20"
                   />
                 </div>
               ) : (

@@ -290,7 +290,7 @@ export default function TeachersPage() {
                 <tr key={teacher.id} className="hover:bg-gray-50">
                   <td className="px-6 py-4 whitespace-nowrap">
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center">
+                      <div className="w-10 h-10 bg-linear-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center">
                         <span className="text-white font-semibold text-sm">
                           {getInitials(teacher.name)}
                         </span>

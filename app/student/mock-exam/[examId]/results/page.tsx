@@ -191,8 +191,8 @@ export default function ExamResultsPage() {
         <Card
           className={`p-8 text-center ${
             passed
-              ? "bg-gradient-to-br from-green-50 to-green-100 border-green-200"
-              : "bg-gradient-to-br from-red-50 to-red-100 border-red-200"
+              ? "bg-linear-to-br from-green-50 to-green-100 border-green-200"
+              : "bg-linear-to-br from-red-50 to-red-100 border-red-200"
           }`}
         >
           <div

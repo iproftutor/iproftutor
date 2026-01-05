@@ -404,7 +404,7 @@ export default function PerformancePage() {
                 <div key={day.date} className="flex flex-col items-center">
                   <div className="h-28 flex flex-col justify-end items-center w-full">
                     <div
-                      className={`w-full max-w-[40px] rounded-t-lg transition-all ${
+                      className={`w-full max-w-10 rounded-t-lg transition-all ${
                         day.sessions > 0
                           ? isToday
                             ? "bg-[#0794d4]"

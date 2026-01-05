@@ -35,7 +35,7 @@ export default function AdminHeader() {
       <div className="flex items-center gap-4">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <button className="flex items-center gap-3 px-4 py-2 bg-gradient-to-r from-cyan-50 to-blue-50 border border-cyan-200 rounded-lg hover:from-cyan-100 hover:to-blue-100 transition-all">
+            <button className="flex items-center gap-3 px-4 py-2 bg-linear-to-r from-cyan-50 to-blue-50 border border-cyan-200 rounded-lg hover:from-cyan-100 hover:to-blue-100 transition-all">
               {loadingCountries ? (
                 <>
                   <div className="w-5 h-5 rounded-full bg-gray-200 animate-pulse"></div>

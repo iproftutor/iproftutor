@@ -490,7 +490,7 @@ export default function MainContent() {
                   return (
                     <div
                       key={subject.name}
-                      className={`flex items-center gap-4 p-4 bg-gradient-to-r ${
+                      className={`flex items-center gap-4 p-4 bg-linear-to-r ${
                         bgColors[index % 3]
                       } to-transparent rounded-xl border ${
                         borderColors[index % 3]
@@ -769,7 +769,7 @@ export default function MainContent() {
       </div>
 
       {/* AI Tutor CTA */}
-      <Card className="p-6 bg-gradient-to-r from-[#0794d4] to-[#0679b0] text-white">
+      <Card className="p-6 bg-linear-to-r from-[#0794d4] to-[#0679b0] text-white">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 bg-white/20 rounded-xl flex items-center justify-center">

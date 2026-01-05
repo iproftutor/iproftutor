@@ -32,7 +32,7 @@ export function PomodoroLockOverlay() {
     ((totalSeconds - state.lockRemainingSeconds) / totalSeconds) * 100;
 
   return (
-    <div className="fixed inset-0 z-[9999] bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+    <div className="fixed inset-0 z-9999 bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-500/20 rounded-full blur-3xl animate-pulse" />
@@ -82,7 +82,7 @@ export function PomodoroLockOverlay() {
         <div className="w-full max-w-md mx-auto mb-6">
           <div className="h-2 bg-white/20 rounded-full overflow-hidden">
             <div
-              className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-1000 ease-linear"
+              className="h-full bg-linear-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-1000 ease-linear"
               style={{ width: `${progress}%` }}
             />
           </div>
